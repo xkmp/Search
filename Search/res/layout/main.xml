@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    android:fitsSystemWindows="true" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m_b_e"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_toEndOf="@+id/imageButton1"
+            android:layout_toStartOf="@+id/imageButton1"
+            android:hint="@string/m_b_e_h"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="@dimen/m_b_e"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="#00000000"
+            android:contentDescription="@string/m_s_start"
+            android:onClick="onSeekClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/seek" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="@dimen/m_m_h"
+        android:layout_height="@dimen/m_m_h"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/m_ib_m_t"
+        android:background="#00000000"
+        android:contentDescription="@string/m_m_t"
+        android:onClick="onToClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="@dimen/m_m_h"
+        android:layout_height="@dimen/m_m_h"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="@dimen/m_xx_m_t"
+        android:background="#00000000"
+        android:contentDescription="@string/x_i_t"
+        android:onClick="onXiaokai"
+        android:scaleType="fitCenter"
+        android:src="@drawable/xiaokai" />
+
+</RelativeLayout>

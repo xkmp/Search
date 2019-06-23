@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Search</string>
+    <string name="x">帅凯</string>
+    <string name="m_t">快捷搜索</string>
+    <string name="m_b_e_h">请输入您想要搜索的内容（物品名称/物品ID）！</string>
+    <string name="m_s_start">开始收缩</string>
+    <string name="m_l_i_i_t">物品图标</string>
+    <string name="m_l_i_t_t">物品名称（ID）</string>
+    <string name="m_l_i_t_h">物品贴图路径</string>
+    <string name="m_m_t">切换视图</string>
+    <string name="m_b_t_h">物品介绍</string>
+    <string name="x_i_t">帅逼凯</string>
+
+</resources>
